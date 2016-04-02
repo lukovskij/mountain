@@ -1,0 +1,73 @@
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("../fonts/opensans/OpenSans-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-BoldItalic";
+	src: url("../fonts/opensans/OpenSans-BoldItalic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-ExtraBold";
+	src: url("../fonts/opensans/OpenSans-ExtraBold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-BoldItalic";
+	src: url("../fonts/opensans/OpenSans-BoldItalic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-Italic";
+	src: url("../fonts/opensans/OpenSans-Italic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-Light";
+	src: url("../fonts/opensans/OpenSans-Light.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-LightItalic";
+	src: url("../fonts/opensans/OpenSans-LightItalic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-Regular";
+	src: url("../fonts/opensans/OpenSans-Regular.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-Semibold";
+	src: url("../fonts/opensans/OpenSans-Semibold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "OpenSans-SemiboldItalic";
+	src: url("../fonts/opensans/OpenSans-SemiboldItalic.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Bringin";
+	src: url("../fonts/bringin/Bringin.otf"),
+		url("../fonts/bringin/Bringin.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Releway-Bold";
+	src:url("../fonts/releway/Raleway-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
