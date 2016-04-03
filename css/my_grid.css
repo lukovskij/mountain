@@ -45,10 +45,11 @@ dfn
 {
 	font-style: italic;
 }
-h1
+h1,h2,h3,h4,h5,h6
 {
 	font-size: 2em;
-	margin: 0.67em 0;
+	margin: 0;
+	padding: 0;
 }
 mark
 {
@@ -222,9 +223,9 @@ a
 }
 a:focus
 {
-	outline: 5px auto -webkit-focus-ring-color;
-	outline: thin dotted;
-	outline-offset: -2px;
+	outline: none;
+	outline: none;
+	outline-offset: none;
 }
 figure
 {
@@ -233,6 +234,10 @@ figure
 img
 {
 	vertical-align: middle;
+}
+p{
+	margin: 0;
+	padding: 0;
 }
 .container
 {

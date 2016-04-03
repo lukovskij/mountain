@@ -27,6 +27,15 @@ body {
 	font-family: "OpenSans-Regular", sans-serif;
 	font-size: 16px;
 }
+.hiden{
+	overflow: hidden;
+}
+.r_left{
+	padding-left: 0px;
+}
+.r_right{
+	padding-right: 0px;
+}
 header{
 	margin: 0;
 	padding: 0;
@@ -40,7 +49,7 @@ header{
 }
 header:after{
 	content: '';
-	display: block;
+	display: none;
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -49,12 +58,12 @@ header:after{
 	top: 0;
 	right: 0;
 	left: 0;
-	background-color: rgba(255, 255, 255, .3);
+	background-color: rgba(255, 255, 255, .2);
 }
 .top_line{
 	width: 100%;
 	height: 88px;
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .3);
 	z-index: 20;
 	position: relative;
 }
@@ -154,7 +163,7 @@ header:after{
 	border-top: none;
 	width: 100%;
 	height: 325px;
-	margin-top: 130px;
+	margin-top: 148px;
 	position: relative;
 	z-index: 0;
 	padding-top: 60px;
@@ -170,7 +179,7 @@ header:after{
 	position: absolute;
 	width: 100%;
 	height: 3px;
-	background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 65%,rgba(255,255,255,0) 55%,rgba(255,255,255,0) 82.3%,rgba(255,255,255,1) 62%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to right,rgba(255,255,255,1) 66%,rgba(255,255,255,0) 64%,rgba(255,255,255,0) 84.5%,rgba(255,255,255,1) 81%);
 	top: 0px;
 	left: 0;
 	right: 0;
@@ -184,17 +193,284 @@ header:after{
 	font-size: 50px;
 	line-height: 0px;
 	letter-spacing: 6px;
-	word-spacing: 12px;
+    word-spacing: 2px;
 }
 .center_h_wr h1 .t_t_mnt{
 	display: block;
 	margin: 0;
 	padding: 0;
 	font-family: "Bringin";
-	font-size: 66px;
+	font-size: 70px;
 	color: #56C7Ff;
 	text-transform: none;
-	margin-top: 50px;
+	margin-top: 37px;
 	letter-spacing: 0px;
-	word-spacing: 24px;
+	word-spacing: -2px;
+}
+.center_h_wr .descr_top{
+	font-family: "OpenSans-Regular";
+	font-size: 18px;
+	text-transform: none;
+	color: #D6DBDE;
+	margin: 0;
+	padding: 0;
+	padding-right: 660px;
+	margin-top: 41px;
+}
+.center_h_wr .order_btn{
+	display: block;
+	width: 255px;
+	height: 65px;
+	background-color: #36AEEA;
+	border-radius: 5px;
+	color: #fff;
+	font-family: "Releway-Bold";
+	font-size: 14px;
+	text-align: center;
+	line-height: 65px;
+	letter-spacing: 3px;
+	margin-top: 25px;
+	transition: all .2s ease-in-out;
+}
+.center_h_wr .order_btn:hover{
+	background-color: transparent;
+	border: 3px solid #36AEEA;
+}
+.about{
+	width: 100%;
+	height: 739px;
+	position: relative;
+	background: #f6f4f4;
+}
+.about:after{
+	content: '';
+	display: block;
+	width: 1057px;
+	height: 528px;
+	position: absolute;
+	top: 22px;
+	left: 148px;
+	right: 0;
+	background: #f6f4f4 url(../img/about_bg.png) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: right top;
+	z-index: 3;
+}
+.about_txt_box{
+	margin: 0;
+	padding: 0;
+	margin-top: 205px;
+	margin-left: 3px;
+	position: relative;
+	z-index: 5;
+}
+.wave{
+	margin: 0;
+	padding: 0;
+	width: 83px;
+	height: 6px;
+	background: url(../img/waves.png) no-repeat;
+	background-position: center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.about_txt_box h3{
+	font-family: "OpenSans-Bold";
+	font-size: 20px;
+	color: #2c2e37;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+	margin-top: 38px;
+}
+.about_txt_box p{
+	margin: 0;
+	padding: 0;
+	font-family: "OpenSans-Regular";
+	font-size: 14px;
+	color: #9B9A9A;
+}
+.about_txt_box .read_more{
+	display: block;
+	width: 132px;
+	height: 40px;
+	background-color: #36AEEA;
+	color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 40px;
+	font-family: "OpenSans-Bold";
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+	transition: all .2s ease-in-out;
+}
+.about_txt_box .read_more:hover{
+	background-color: transparent;
+	border: 3px solid #36AEEA;
+	color: #36AEEA;
+}
+.about_img_box{
+	width: 585px;
+	height: 570px;
+	float: right;
+	margin-top: -35px;
+	position: relative;
+	z-index: 5;
+}
+.about_img_box img{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+.second_img_box{
+	margin: 0;
+	padding: 0;
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	top: 312px;
+	left: -94px;
+	right: 0;
+}
+.journal{
+	margin: 0;
+	padding: 0;
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+.journal .wave{
+	margin: 0 auto;
+}
+.journal h2{
+	font-family: "OpenSans-Bold";
+	font-size: 30px;
+	color: #2c2e37;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.journal_wr{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 21px rgba(6,6,6,.13);
+	-moz-box-shadow: 0 0 21px rgba(6,6,6,.13);
+	box-shadow: 0 0 21px rgba(6,6,6,.13);
+}
+/*horizontal item*/
+.item_hor{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 66.6666666%;
+	height: 50%;
+	float: left;
+}
+.item_hor .img_box{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.item_hor .text{
+	float: left;
+	color: #212121;
+	text-align: center;
+	width: 50%;
+	padding: 47px 0px 40px;
+}
+.item_hor .text .title{
+	display: block;
+	font-family: "OpenSans-Bold";
+	font-size: 11px;
+	color: #16b5ef;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.item_hor .text h2{
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
+	padding: 0px 63px;
+}
+.item_hor .text p{
+	font-family: "OpenSans-Regular";
+	font-size: 14px;
+	color: #777;
+	margin-bottom: 36px;
+	padding: 0px 55px;
+}
+.item_hor .text .no{
+	display: block;
+	font-family: "Times New Roman";
+	font-size: 14px;
+	color: #212121;
+}
+/**********************************/
+/*vertical item*/
+.item_vert{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 33.3333333%;
+	height: 100%;
+	float: right;
+}
+.item_vert .img_box{
+	width: 100%;
+}
+.item_vert .text{
+	color: #212121;
+	text-align: center;
+	width: 100%;
+	padding: 57px 0px 40px;
+}
+.item_vert .text .title{
+	display: block;
+	font-family: "OpenSans-Bold";
+	font-size: 11px;
+	color: #16b5ef;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.item_vert .text h2{
+	font-family: "OpenSans-Bold";
+	font-size: 16px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 25px;
+	padding: 0px 63px;
+}
+.item_vert .text p{
+	font-family: "OpenSans-Regular";
+	font-size: 14px;
+	color: #777;
+	margin-bottom: 36px;
+	padding: 0px 55px;
+}
+.item_vert .text .no{
+	display: block;
+	font-family: "Times New Roman";
+	font-size: 14px;
+	color: #212121;
+}
+
+/************************************/
+.item_vert img,
+.item_hor img{
+	display: block;
+	width: 100%;
 }
